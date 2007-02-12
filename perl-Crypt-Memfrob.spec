@@ -2,7 +2,7 @@
 %define		pdir	Crypt
 %define		pnam	Memfrob
 Summary:	Crypt::Memfrob Perl module - memfrob implementation in pure Perl
-Summary(pl):	Modu³ Perla Crypt::Memfrob - implementacja memfrob w samym Perlu
+Summary(pl.UTF-8):   ModuÅ‚ Perla Crypt::Memfrob - implementacja memfrob w samym Perlu
 Name:		perl-Crypt-Memfrob
 Version:	1.00
 Release:	3
@@ -22,11 +22,11 @@ the memfrob function included in glibc. With this library, you can
 generate glibc-compatible frobnicated (encrypted) strings, and
 defrobnicate glibc-generated strings, in Perl.
 
-%description -l pl
-Ten pakiet zawiera jedn± funkcjê: memfrob. Jest to odpowiednik funkcji
-memfrob z biblioteki glibc. Przy pomocy tej biblioteki mo¿na z poziomu
-Perla generowaæ zgodne z glibc "zakodowane" ³añcuchy oraz rozkodowywaæ
-³añcuchy wygenerowane przez funkcjê glibc.
+%description -l pl.UTF-8
+Ten pakiet zawiera jednÄ… funkcjÄ™: memfrob. Jest to odpowiednik funkcji
+memfrob z biblioteki glibc. Przy pomocy tej biblioteki moÅ¼na z poziomu
+Perla generowaÄ‡ zgodne z glibc "zakodowane" Å‚aÅ„cuchy oraz rozkodowywaÄ‡
+Å‚aÅ„cuchy wygenerowane przez funkcjÄ™ glibc.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
