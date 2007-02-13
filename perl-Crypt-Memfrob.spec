@@ -2,7 +2,7 @@
 %define		pdir	Crypt
 %define		pnam	Memfrob
 Summary:	Crypt::Memfrob Perl module - memfrob implementation in pure Perl
-Summary(pl.UTF-8):   Moduł Perla Crypt::Memfrob - implementacja memfrob w samym Perlu
+Summary(pl.UTF-8):	Moduł Perla Crypt::Memfrob - implementacja memfrob w samym Perlu
 Name:		perl-Crypt-Memfrob
 Version:	1.00
 Release:	3
