@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Crypt
 %define		pnam	Memfrob
+%include	/usr/lib/rpm/macros.perl
 Summary:	Crypt::Memfrob Perl module - memfrob implementation in pure Perl
 Summary(pl.UTF-8):	Moduł Perla Crypt::Memfrob - implementacja memfrob w samym Perlu
 Name:		perl-Crypt-Memfrob
@@ -11,6 +11,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	488dd2a4bb7bdef63615d40a73ebf21b
+URL:		http://search.cpan.org/dist/Crypt-Memfrob/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
