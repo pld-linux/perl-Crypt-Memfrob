@@ -1,6 +1,5 @@
 %define		pdir	Crypt
 %define		pnam	Memfrob
-%include	/usr/lib/rpm/macros.perl
 Summary:	Crypt::Memfrob Perl module - memfrob implementation in pure Perl
 Summary(pl.UTF-8):	Moduł Perla Crypt::Memfrob - implementacja memfrob w samym Perlu
 Name:		perl-Crypt-Memfrob
